@@ -41,7 +41,7 @@ const Forecast = ({ data }) => {
                                     <label>{item.main.humidity}</label>
                                 </div>
                                 <div className="daily-details-grid-item">
-                                    <label>Nuvens:</label>
+                                    <label>Chance de chuva:</label>
                                     <label>{item.clouds.all}%</label>
                                 </div>
                                 <div className="daily-details-grid-item">
